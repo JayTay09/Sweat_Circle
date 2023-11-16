@@ -1,0 +1,30 @@
+<!-- res/xml/preferences.xml -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- General Settings Category -->
+    <PreferenceCategory
+        android:title="General Settings">
+
+        <!-- CheckBoxPreference for enabling/disabling a feature -->
+        <CheckBoxPreference
+            android:key="pref_key_enable_feature"
+            android:title="Enable Feature"
+            android:summary="Enable or disable a specific feature"
+            android:defaultValue="true" />
+
+        <!-- EditTextPreference for entering a username -->
+        <EditTextPreference
+            android:key="pref_key_username"
+            android:title="Username"
+            android:summary="Enter your username"
+            android:inputType="text"
+            android:defaultValue=""
+            android:singleLine="true" />
+
+        <!-- Add more preferences as needed -->
+
+    </PreferenceCategory>
+
+    <!-- Add more preference categories as needed -->
+
+</PreferenceScreen>

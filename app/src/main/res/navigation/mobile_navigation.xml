@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.sweatcircle.Home"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_journal"
+        android:name="com.example.sweatcircle.Journal"
+        android:label="journal"
+        tools:layout="@layout/fragment_journal" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.sweatcircle.Profile"
+        android:label="profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_social"
+        android:name="com.example.sweatcircle.Social"
+        android:label="social"
+        tools:layout="@layout/fragment_social" />
+
+    <fragment
+        android:id="@+id/navigation_premium"
+        android:name="com.example.sweatcircle.Premium"
+        android:label="premium"
+        tools:layout="@layout/fragment_premium" />
+</navigation>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <!-- res/layout/activity_home.xml -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="-77dp">
+
+
+        <!-- Blue Header -->
+        <View
+            android:id="@+id/blueHeader"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@android:color/holo_blue_light"
+            android:layout_alignParentTop="true" />
+
+        <!-- App Name at the Top Left -->
+        <TextView
+            android:id="@+id/textAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:text="SweatCircle"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <!-- Settings Button at the Top Right -->
+        <ImageButton
+            android:id="@+id/btnSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/settings"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- Other Workout App Content Goes Here -->
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
